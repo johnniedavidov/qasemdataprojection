@@ -1,0 +1,11 @@
+
+pandas
+torch
+transformers
+spacy
+simalign
+sentencepiece
+accelerate
+scipy
+protobuf
+

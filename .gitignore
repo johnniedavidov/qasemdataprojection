@@ -1,0 +1,10 @@
+# Ignore all .conllu files by default
+*.conllu
+
+# But allow conllu examples inside sample_data
+!sample_data/**/*.conllu
+
+# Ignore heavy data folders
+data/
+datasets/
+outputs/
