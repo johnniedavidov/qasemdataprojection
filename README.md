@@ -104,11 +104,27 @@ Make sure to install the dependencies (e.g., using `requirements.txt` or `conda`
 If you use this pipeline in your work, please cite:
 
 ```
-@misc{your_citation_here,
-  title={Cross-Lingual QA-based Semantic Role Labeling},
-  author={Davidov, Yonatan et al.},
-  year={2025},
-  note={Under Review}
+@inproceedings{davidov-etal-2026-effective,
+    title = "Effective {QA}-Driven Annotation of Predicate{--}Argument Relations Across Languages",
+    author = "Davidov, Jonathan  and
+      Slobodkin, Aviv  and
+      Klein, Shmuel Tomi  and
+      Tsarfaty, Reut  and
+      Dagan, Ido  and
+      Klein, Ayal",
+    editor = "Demberg, Vera  and
+      Inui, Kentaro  and
+      Marquez, Llu{\'i}s",
+    booktitle = "Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.eacl-long.112/",
+    doi = "10.18653/v1/2026.eacl-long.112",
+    pages = "2484--2502",
+    ISBN = "979-8-89176-380-7",
+    abstract = "Explicit representations of predicate-argument relations form the basis of interpretable semantic analysis, supporting reasoning, generation, and evaluation. However, attaining such semantic structures requires costly annotation efforts and has remained largely confined to English. We leverage the Question-Answer driven Semantic Role Labeling (QA-SRL) framework {---} a natural-language formulation of predicate-argument relations {---} as the foundation for extending semantic annotation to new languages. To this end, we introduce a cross-linguistic projection approach that reuses an English QA-SRL parser within a constrained translation and word-alignment pipeline to automatically generate question-answer annotations aligned with target-language predicates. Applied to Hebrew, Russian, and French {---} spanning diverse language families {---} the method yields high-quality training data and fine-tuned, language-specific parsers that outperform strong multilingual LLM baselines (GPT-4o, LLaMA-Maverick). By leveraging QA-SRL as a transferable natural-language interface for semantics, our approach enables efficient and broadly accessible predicate-argument parsing across languages."
 }
 ```
 
